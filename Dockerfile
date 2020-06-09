@@ -1,4 +1,4 @@
 FROM vimal13/tomcat8
 MAINTAINER nitsin12.uhr@gmail.com
 
-COPY ./webapp.war /opt/maven/webapp
+COPY ./productweb/target/webapp.war /opt/maven/webapps
